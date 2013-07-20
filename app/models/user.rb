@@ -15,7 +15,9 @@ def User.new_remember_token
   def User.encrypt(token)
     Digest::SHA1.hexdigest(token.to_s)
   end
-
+ def feed
+  microposts
+ end
   private
 
     def create_remember_token
