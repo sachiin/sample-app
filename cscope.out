@@ -1,0 +1,261 @@
+cscope 15 $HOME/rails_projects/sample_app               0000001411
+	@authetication.rb
+
+1 
+	g»quœe
+ 'spec_helper'
+
+3 
+	gdesüibe
+ "Authentication" do
+
+5 
+	gsubjeù
+ { 
+	g·ge
+ }
+
+7 
+	gdesüibe
+ "signin…age" do
+
+8 
+	gbefÜe
+ { 
+vis™
+ 
+	gsignš_·th
+ }
+
+10 
+	g™
+ { 
+should
+ 
+have_£ËùÜ
+('h1', 
+‹xt
+: 'Sign in') }
+
+11 
+™
+ { 
+should
+ 
+have_£ËùÜ
+('t™Ë', 
+‹xt
+: 'Sign in') }
+
+12 
+’d
+
+
+14 
+desüibe
+ "signin" do
+
+15 
+befÜe
+ { 
+vis™
+ 
+signš_·th
+ }
+
+17 
+desüibe
+ "with invalid information" do
+
+18 
+befÜe
+ { 
+þick_bu‰Ú
+ "Sign in" }
+
+20 
+™
+ { 
+should
+ 
+have_£ËùÜ
+('t™Ë', 
+‹xt
+: 'Sign in') }
+
+21 
+™
+ { 
+should
+ 
+have_”rÜ_mes§ge
+ }
+
+23 
+desüibe
+ "after visiting‡nother…age" do
+
+24 
+befÜe
+ { 
+þick_lšk
+ "Home" }
+
+25 
+™
+ { 
+should_nÙ
+ 
+have_”rÜ_mes§ge
+ }
+
+26 
+’d
+
+
+27 
+’d
+
+
+29 
+desüibe
+ "with valid information" do
+
+30 
+Ët
+(:
+u£r
+è{ 
+FaùÜyGœl
+.
+ü—‹
+(:user) }
+
+31 
+befÜe
+ { 
+sign_š
+ 
+u£r
+ }
+
+33 
+™
+ { 
+should
+ 
+have_£ËùÜ
+('t™Ë', 
+‹xt
+: 
+u£r
+.
+Çme
+) }
+
+34 
+™
+ { 
+should
+ 
+have_lšk
+('Profže', 
+h»f
+: 
+u£r_·th
+(
+u£r
+)) }
+
+35 
+™
+ { 
+should
+ 
+have_lšk
+('SigÀout', 
+h»f
+: 
+signout_·th
+) }
+
+36 
+™
+ { 
+should
+ 
+have_lšk
+('S‘tšgs', 
+h»f
+: 
+ed™_u£r_·th
+(
+u£r
+)) }
+
+37 
+™
+ { 
+should
+ 
+have_lšk
+('U£rs', 
+h»f
+: 
+u£rs_·th
+) }
+
+38 
+™
+ { 
+should_nÙ
+ 
+have_lšk
+('SigÀš', 
+h»f
+: 
+signš_·th
+) }
+
+40 
+desüibe
+ "followed by signout" do
+
+41 
+befÜe
+ { 
+þick_lšk
+ "Sign out" }
+
+42 
+™
+ { 
+should
+ 
+have_lšk
+('Sign in') }
+
+43 
+’d
+
+
+44 
+’d
+
+
+45 
+’d
+
+
+46 
+’d
+
+
+	@
+1
+.
+1
+/usr/include
+1
+17
+authetication.rb
